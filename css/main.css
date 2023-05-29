@@ -296,7 +296,7 @@ hr{
 }
 
 
-/*Light mode*/
+/* Light mode */
 .light-mode {
   background-color: white;
   color: black;
@@ -307,23 +307,29 @@ hr{
   color: black;
 }
 
-.light-mode .profile_title, .profileNameFirstname, .item_title{
+.light-mode .profile_title,
+.light-mode .profileNameFirstname,
+.light-mode .item_title {
   color: black;
 }
 
-.light-mode .container{
+.light-mode .container {
   background: #f7f7f7;
 }
 
-.light-mode .downloadButton{
+.light-mode .downloadButton {
   color: #575757;
 }
 
-.light-mode .downloadButton:hover{
+.light-mode .downloadButton:hover {
   color: black;
 }
 
-.light-mode .social_item, .interest_item, .item_preTitle, .item_subtitle, .description{
+.light-mode .social_item,
+.light-mode .interest_item,
+.light-mode .item_preTitle,
+.light-mode .item_subtitle,
+.light-mode .description {
   color: var(--lightmode-textcolor);
 }
 
