@@ -45,6 +45,7 @@
         <li>C++</li>
         <li>Java</li>
         <li>Oracle SQL</li>
+        <li>HTML & CSS</li>
       </ul>
     </div>
     <!--      <div class="Reference">-->
@@ -189,6 +190,17 @@
   </div>
 </div>
 </div>
+<button id="mode-toggle" class="mode-toggle-button">
+  <i data-feather="moon"></i>
+</button>
+<script>
+  const modeToggle = document.getElementById('mode-toggle');
+  const body = document.body;
+
+  modeToggle.addEventListener('click', () => {
+    body.classList.toggle('light-mode');
+  });
+</script>
 <script>
   feather.replace()
 </script>
